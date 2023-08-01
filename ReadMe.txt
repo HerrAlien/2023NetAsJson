@@ -2,7 +2,7 @@ The neural network is described in a JSON with the following meaning:
 
 {
   "n_layers": 3,
-  "layer_sizes": [784, 100, 10 ],
+  "layer_sizes": [784, 100, 10 ], // number of neurons per layer
   "activation": "logistic",
   "out_activation": "softmax",
   "weights": [
